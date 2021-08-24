@@ -7,7 +7,6 @@ export class ApiData extends Component {
             this.props.apiCrudData.map((obj, idx) => {
                 return (
                     <div key={idx}>
-
                         <Card style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={obj.photo} />
                             <Card.Body>

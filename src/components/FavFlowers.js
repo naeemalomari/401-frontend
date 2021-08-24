@@ -34,9 +34,9 @@ class FavFlowers extends React.Component {
   }
   showUpdateForm=(instructions,id)=>{
       this.setState({ 
-        showUpdateForm:true,
         instructions:instructions,
-        _id:id
+        _id:id,
+        showUpdateForm:true,
       })
   }
   instructionsState=(e)=>{
